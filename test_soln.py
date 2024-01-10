@@ -29,4 +29,4 @@ class TestInput(unittest.TestCase):
         self.assertEqual(extract_links(input2), ["/wiki/Main_Page,Main page","/wiki/Portal:Contents,Contents","/wiki/Portal:Featured_content,Featured content","/wiki/Portal:Current_events,Current events","/wiki/Special:Random,Random article","//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en,Donate to Wikipedia"])
 
 if __name__ == '__main__':
-    unittest.main() -v
+    unittest.main(verbosity=2)
